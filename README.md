@@ -14,7 +14,7 @@ Read the [project principles](docs/principles.md).
 
 If you publish your prototypes online, they **must** be protected by a [username and password](docs/guides/publishing-on-heroku.md). This is to prevent members of the public finding prototypes and thinking they are real services.
 
-You must protect user privacy at all times, even when using prototypes. Prototypes made with the kit look like GOV.UK, but do not have the same security provisions. Always make sure you are handling user data appropriately. 
+You must protect user privacy at all times, even when using prototypes. Prototypes made with the kit look like GOV.UK, but do not have the same security provisions. Always make sure you are handling user data appropriately.
 
 ## Installation instructions
 
@@ -35,6 +35,7 @@ You must protect user privacy at all times, even when using prototypes. Prototyp
 - [Updating the kit to the latest version](docs/updating-the-kit.md)
 - [Tips and tricks](docs/tips-and-tricks.md)
 - [Creating routes (server-side programming)](docs/creating-routes.md)
+- [Linting](docs/linting.md)
 
 ## Community
 
