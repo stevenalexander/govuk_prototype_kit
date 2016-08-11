@@ -118,6 +118,10 @@ $(document).ready(function() {
   var $blockLabels = $(".block-label input[type='radio'], .block-label input[type='checkbox']");
   new GOVUK.SelectionButtons($blockLabels);
 
+  // Use GOV.UK anchor-buttons.js to trigger the click event of element(s)
+  // with role="button" when the space key is pressed.
+  GOVUK.anchorButtons.init();
+
   // Show and hide toggled content
   // Where .block-label uses the data-target attribute
   var toggleContent = new ShowHideContent();
